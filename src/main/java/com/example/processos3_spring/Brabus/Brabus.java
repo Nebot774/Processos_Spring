@@ -1,4 +1,4 @@
-package com.example.processos3_spring.bmw;
+package com.example.processos3_spring.Brabus;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Bmw {
+public class Brabus {
 
     private int id;
     private String modelo;
@@ -19,18 +19,3 @@ public class Bmw {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
