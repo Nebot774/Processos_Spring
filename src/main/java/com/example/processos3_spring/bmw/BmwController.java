@@ -20,11 +20,13 @@ public class BmwController {
         return bmwService.findAll();
     }
 
+    //http://localhost:8080/bmws/highestHorsepower
     @GetMapping("/highestHorsepower")
     public List<Bmw> getBmwsByHighestHorsepower() {
         return bmwService.findByHighestHorsepower();
     }
 
+    //http://localhost:8080/bmws/highestPrice
     @GetMapping("/highestPrice")
     public List<Bmw> getBmwsByHighestPrice() {
         return bmwService.findByHighestPrice();
