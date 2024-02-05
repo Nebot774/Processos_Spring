@@ -1,4 +1,6 @@
-package com.example.processos3_spring;
+package com.example.processos3_spring.bmw;
+
+import com.example.processos3_spring.bmw.Bmw;
 
 import java.util.List;
 

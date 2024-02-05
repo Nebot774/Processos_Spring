@@ -1,4 +1,4 @@
-package com.example.processos3_spring;
+package com.example.processos3_spring.bmw;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

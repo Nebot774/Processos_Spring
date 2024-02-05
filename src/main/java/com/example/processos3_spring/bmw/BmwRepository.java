@@ -1,5 +1,6 @@
-package com.example.processos3_spring;
+package com.example.processos3_spring.bmw;
 
+import com.example.processos3_spring.bmw.Bmw;
 import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package com.example.processos3_spring;
-
-import org.springframework.stereotype.Controller;
+package com.example.processos3_spring.bmw;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +14,7 @@ public class BmwController {
     @Autowired
     private BmwService bmwService;
 
+    //http://localhost:8080/bmws/all
     @GetMapping("/all")
     public List<Bmw> getAllBmws() {
         return bmwService.findAll();
